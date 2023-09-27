@@ -8,7 +8,10 @@ const HomePage = () => {
   const apiKey = import.meta.env.VITE_API_KEY
     ? import.meta.env.VITE_API_KEY
     : " ";
-  const authUrl = `http://www.last.fm/api/auth/?api_key=${apiKey}&cb=http://localhost:5173/combinedPage`;
+  const redirect_url = import.meta.env.VITE_REDIRECT_URL
+    ? import.meta.env.VITE_REDIRECT_URL
+    : " ";
+  const authUrl = `http://www.last.fm/api/auth/?api_key=${apiKey}&cb=${redirect_url}`;
 
   const handleClick = () => {
     // navigate(`/combinedPage`);
