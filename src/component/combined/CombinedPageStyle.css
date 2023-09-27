@@ -1,21 +1,15 @@
-
-.CPBackground{
-    background-color: #337CCF;
-    width: 100vw;
-    min-height: 100vh;
+.CPBackground {
+  background-color: #337ccf;
+  width: 100vw;
+  min-height: 100vh;
 }
 
-/* .CPDrawer{
-    width: 20%;
-    background-color: #1450A3;
-} */
-
-.sideBySide{
-    display: flex;
-    margin: 10px;
+.sideBySide {
+  display: flex;
+  margin: 10px;
 }
 
-.cards{
-    margin: 5px;
-    margin-left: 20%;
+.cards {
+  margin: 5px;
+  margin-left: 20%;
 }

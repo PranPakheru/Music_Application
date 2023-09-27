@@ -1,44 +1,34 @@
+.homePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
 
-.homePage{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/* title part is here */
+.title {
+  width: 50%;
+  height: 50%;
+  font-size: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  color: #183d3d;
+}
 
- }
+.titlePara {
+  margin-left: 20px;
+}
 
- /* title part is here */
- .title{
-    width: 50%;
-    height: 50%;
-    font-size: 100px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300;
-    color: #183D3D;
- }
+/* other title part is here */
+.otherTitle {
+  width: 50%;
+  height: 50%;
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: 200;
+  color: #5c8374;
+}
 
- .titlePara{
-   margin-left: 20px;
- }
-
- /* .titleImg{
-    width: 60%;
-    margin-top: 7%;
-    margin-left: 14%;
-
- } */
-
- /* other title part is here */
- .otherTitle{
-    width: 50%;
-    height: 50%;
-    font-size: 35px;
-    font-family: cursive;
-    font-weight: 200;
-    color: #5C8374;
- }
-
- .otherTitlePara{
-    margin-top: 45%;
-    margin-left: 10%;
- }
-
+.otherTitlePara {
+  margin-top: 45%;
+  margin-left: 10%;
+}

@@ -4,11 +4,8 @@ import axios from '../utils/Axios'
 import { generateApiSignature } from '../utils/Helper';
 
 
-const apiKey = 'add8e5c145e6ed2ade78942919ee5b7b';
-const apiSecret = 'b5ca7751831781eebcafbd598ded5e82';
-const redirectUri = 'http://localhost:5173/combinedPage';
-// const scopes = 'music_read';
-
+const apiKey = import.meta.env.VITE_API_KEY ? import.meta.env.VITE_API_KEY : " ";
+const apiSecret = import.meta.env.VITE_API_SECRET ? import.meta.env.VITE_API_SECRET : " ";
 
 export class AxiosService{
 
@@ -24,7 +21,6 @@ export class AxiosService{
             authToken,
             apiSecret,
         );
-        // console.log(apiSignature);
 
         const parameters = {
             method: `auth.getSession`,
